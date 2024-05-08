@@ -16,7 +16,7 @@ function NavbarMenu() {
                     <Navbar.Brand href="#home" className='text-center text-warning fw-bold display-1'>EVOCUS <br></br> IT TECHNOLOGY</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
+                        <Nav className="me-auto ">
                             <Nav.Link href="#features">Services</Nav.Link>
                             <Nav.Link href="#pricing">Work</Nav.Link>
                             <Nav.Link href="#about">About</Nav.Link>
