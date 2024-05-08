@@ -19,7 +19,7 @@ function NavbarMenu() {
                         <Nav className="me-auto">
                             <Nav.Link href="#features">Services</Nav.Link>
                             <Nav.Link href="#pricing">Work</Nav.Link>
-                            <Nav.Link href="#pricing">About</Nav.Link>
+                            <Nav.Link href="#about">About</Nav.Link>
 
                             {/* <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
