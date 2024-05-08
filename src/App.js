@@ -11,7 +11,9 @@ import OurServices from './components/OurServices';
 function App() {
   return (
     <>
-      <div className='container-fluid position-relative'>
+
+
+      <div className='container-fluid'>
         <div className='position-sticky top-0 '>
 
           <NavbarMenu></NavbarMenu>

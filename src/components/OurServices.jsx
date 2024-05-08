@@ -61,14 +61,14 @@ function ServiceCard() {
 
         <>
             <div className='col-md-4 mb-5'>
-                <Card >
+                <Card align="center">
                     <Card.Img variant="top" src={devImg} className='w-25 m-auto' />
                     <Card.Body>
                         <Card.Title>Web Development</Card.Title>
                         <Card.Text>
                             Delivering powerful web solutions using the right mix of front and back-end technologies for market leaders and growing businesses.
                         </Card.Text>
-                        <Button variant="primary" >Click Here</Button>
+                        <Button variant="primary"  >Click Here</Button>
                     </Card.Body>
                 </Card>
 
