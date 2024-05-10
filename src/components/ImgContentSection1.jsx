@@ -6,7 +6,7 @@ export default function ImgContentSection1() {
     return (
         <>
 
-            <div className='bg-body-secondary my-5'>
+            <div className='container-fluid bg-body-secondary my-5'>
 
                 {/* <div className=''> */}
                 <div className='row'>
@@ -32,7 +32,8 @@ export default function ImgContentSection1() {
 
                         <div className='d-flex flex-row-reverse pe-5'>
                             <Button variant="primary" size="lg" className='px-5 my-3'>LEARN MORE ABOUT US</Button>
-                        </div>                        </div>
+                        </div>                        
+                    </div>
                 </div>
 
 

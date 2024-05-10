@@ -7,6 +7,7 @@ import Footer from './components/common/FooterMenu';
 import OurServices from './components/OurServices';
 import ContentCarouselSection from './components/ContentCarouselSection';
 import ImgContentSection1 from './components/ImgContentSection1';
+import ImgContentSection2 from './components/ImgContentSection2';
 
 
 
@@ -47,7 +48,9 @@ function App() {
       </div>
       <ContentCarouselSection></ContentCarouselSection>
       <ImgContentSection1></ImgContentSection1>
+
       <OurServices></OurServices>
+      <ImgContentSection2></ImgContentSection2>
       <Footer></Footer>
 
 
