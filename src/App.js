@@ -6,6 +6,7 @@ import './assets/css/header.css';
 import Footer from './components/common/FooterMenu';
 import OurServices from './components/OurServices';
 import ContentCarouselSection from './components/ContentCarouselSection';
+import ImgContentSection1 from './components/ImgContentSection1';
 
 
 
@@ -44,8 +45,9 @@ function App() {
 
 
       </div>
-      <OurServices></OurServices>
       <ContentCarouselSection></ContentCarouselSection>
+      <ImgContentSection1></ImgContentSection1>
+      <OurServices></OurServices>
       <Footer></Footer>
 
 

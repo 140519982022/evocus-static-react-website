@@ -20,15 +20,15 @@ function OurServices() {
                     </div>
                 </div>
             </div> */}
-            <div className='container-fluid py-5'>
+            <div className='container-fluid py-5 my-5'>
                 <div className='container'>
                     <div className='row '>
                         <div className='col-md-10 m-auto'>
-                            <marquee className="text-danger h6 fw-bolder pt-5 ">EVOCUS IT TECHNOLOGY - SERVICES</marquee>
+                            {/* <marquee className="text-danger h6 fw-bolder pt-5 ">EVOCUS IT TECHNOLOGY - SERVICES</marquee> */}
 
-                            <h1 className='text-center fw-bolder'>SERVICE</h1>
+                            <h1 className='text-center fw-bolder' style={{color:'#364167'}}>SERVICE</h1>
 
-                            <h1 className='text-center fw-bolder pt-5 pb-4'>Optimize Every Touchpoint In The Customer Experience</h1>
+                            <h1 className='text-center fw-bolder pt-5 pb-4' style={{color:'#364167'}}>Optimize Every Touchpoint In The Customer Experience</h1>
 
                             <p className='text-secondary text-center px-5' style={{ fontSize: '20px' }}>
                                 Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
