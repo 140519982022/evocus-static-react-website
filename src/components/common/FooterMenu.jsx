@@ -15,162 +15,127 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 // import { TbWorld } from "react-icons/tb";
+import footerLogo from '../../assets/images/footerLogo.png';
 
 
 function Footer() {
-    const phoneNumber = '77094-14476'; // Your phone number here
+    const phoneNumber = '+91 8419860340'; // Your phone number here
+
+    const email1 = 'info@22-applersolutions.com';
+    const email2 = 'applersolutions2@gmail.com';
+
 
     return (
         <>
 
             <div className="">
-                <div className="container-fluid p-3 bg-body-tertiary text-secondary-emphasis">
+                <div className="container-fluid p-3 footer-bg text-white">
                     <div className="container">
-                        <div className="row py-4">
+                        {/* <div className="row py-4">
                             <div className="col-md-6 ">
-                                {/* <img src="" alt="footer logo" /> */}
-                                <div className=' text-warning fw-bold t'>EVOCUS
-                                    IT TECHNOLOGY</div>
-
 
                             </div>
 
                             <div className="col-md-6 d-flex justify-content-end">
-                                {/* <DropdownButton id="dropdown-item-button" title={<span><img src="" className='w-25 me-2' alt="" /> India</span>} className='me-3 ' variant="secondary">
-                                    <Dropdown.ItemText>India</Dropdown.ItemText>
-                                    <Dropdown.Item as="button">Action</Dropdown.Item>
-                                    <Dropdown.Item as="button">Another action</Dropdown.Item>
-                                    <Dropdown.Item as="button">Something else</Dropdown.Item>
-                                </DropdownButton> */}
-                                {/* <DropdownButton id="dropdown-item-button" title={<span><TbWorld/> English</span>} variant="secondary">
-                                    <Dropdown.ItemText>English</Dropdown.ItemText>
-                                    <Dropdown.Item as="button">Action</Dropdown.Item>
-                                    <Dropdown.Item as="button">Another action</Dropdown.Item>
-                                    <Dropdown.Item as="button">Something else</Dropdown.Item>
-                                </DropdownButton> */}
 
                             </div>
 
-                        </div>
+                        </div> */}
 
-                        <div className='row pt-3'>
-                            <div className='col'>
+                        <div className='row pt-5'>
+                            <div className='col-md-4'>
 
-                                <ul className='lh-lg'>
-                                    <h6>WHAT WE DO</h6>
-                                    <li>
+                                <div className='lh-lg'>
+                                    <img src={footerLogo} alt="footer logo" className='w-75 pb-4' />
 
-                                        <a href="" className=''>Web Development</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="" className=''>Product Developmeny</a>
-                                    </li>
-                                    <li>
-
-                                        <a href="" className=''>Web Development</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="" className=''>Product Developmeny</a>
-                                    </li>
-                                    <li>
-
-                                        <a href="" className=''>Web Development</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="" className=''>Product Development</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className='col'>
-                                <ul className='lh-lg'>
-                                    <h6>SERVICES</h6>
-                                    <li>
-                                        <a href="" className=''>Product Developmeny</a>
-                                    </li>
-                                    <li>
-                                        <a href="" className=''>Product Developmeny</a>
-                                    </li>
-                                    <li>
-                                        <a href="" className=''>Product Developmeny</a>
-                                    </li>
-                                    <li>
-                                        <a href="" className=''>Product Developmeny</a>
-                                    </li>
-                                    <li>
-                                        <a href="" className=''>Product Developmeny</a>
-                                    </li>
-
-                                </ul>
-
-
-                            </div>
-                            <div className='col'>
-                                <ul className='lh-lg'>
-                                    <h6> HOW WE WORK</h6>
-                                    <li>
-
-                                        <a href="" className=''>Dedicated Teams</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="" className=''>Remote Developers</a>
-                                    </li>
-                                    <li>
-
-                                        <a href="" className=''>Dedicated Teams</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="" className=''>Remote Developers</a>
-                                    </li>
-
-
-                                </ul>
-
-                            </div>
-                            <div className='col'>
-                                <ul className='lh-lg'>
-                                    <h6>COMPANY</h6>
-                                    <li>
-
-                                        <a href="" className=''>About US</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="" className=''>Work</a>
-                                    </li>
-
-
-
-                                </ul>
-
-                            </div>
-                            <div className='col'>
-                                <ul className='lh-lg'>
-                                    <h6>FOLLOW US ON</h6>
-                                    <li className='d-flex '>
-
-                                        <a href="" className='me-3 fs-5 text-dark'><FaLinkedin /></a>
-                                        <a href="" className='me-3 fs-5 text-dark'><FaInstagramSquare /></a>
-                                        <a href="" className='me-3 fs-5 text-dark'><FaTwitterSquare /></a>
-                                        <a href="" className='me-3 fs-5 text-dark'><FaYoutube /></a>
-                                        <a href="" className='me-3 fs-5 text-dark'><FaFacebook /></a>
-
-
-
-                                    </li>
                                     
-                                        <a href={`tel:${phoneNumber}`} className='h4 text-success'>
-                                        <IoCall /> {phoneNumber}
-                                        </a>
-                                    <li>
 
+                                    <a href={`mailto:${email1}`}>
+                                    <h5 className='py-3 fw-normal'>info@22-applersolutions.com</h5>
+                                    </a>
+                                    
+                                    <a href={`mailto:${email2}`}>
+                                        <h5 className='py-3 fw-normal'>applersolutions2@gmail.com</h5>
+                                    </a>
+
+                                    
+                                    <a href={`tel:${phoneNumber}`}>
+                                        <h5 className='py-3 fw-normal'>+91 8419860340</h5>
+                                    </a>
+
+                                    <h5 className='py-3 fw-normal'>Designed by Anjali Kothari
+
+                                    </h5>
+                                </div>
+                            </div>
+                            <div className='col-md-4'>
+                                <div className='lh-lg'>
+                                    <h2 className='pb-3'>Quick Links
+                                    </h2>
+                                    <li>
+                                        <MdKeyboardDoubleArrowRight className='fs-2' /> &nbsp;&nbsp;
+                                        <a href="" className='fs-4 fw-normal'>Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <MdKeyboardDoubleArrowRight className='fs-2' /> &nbsp;&nbsp;
+                                        <a href="" className='fs-4 fw-normal'>Services</a>
+                                    </li>
+                                    <li>
+                                        <MdKeyboardDoubleArrowRight className='fs-2' /> &nbsp;&nbsp;
+                                        <a href="" className='fs-4 fw-normal'>About</a>
+                                    </li>
+                                    <li>
+                                        <MdKeyboardDoubleArrowRight className='fs-2' /> &nbsp;&nbsp;
+                                        <a href="" className='fs-4 fw-normal'>Contact</a>
                                     </li>
 
+
+                                </div>
+
+
+                            </div>
+                            <div className='col-md-4'>
+                                <div className='lh-lg'>
+                                    <h5 className='fs-5 lh-base fw-normal'><FaLocationDot /> &nbsp;&nbsp;Address
+                                    </h5>
+                                    {/* <li className='d-flex '> */}
+
+                                    <h5 className='fs-5 lh-base fw-normal'>
+                                        Office no.403 Cresecent business park <br />
+                                        pool road sakinaka <br />
+                                        andheri east 400-072
+                                    </h5>
+
+
+                                    <h5 className='fs-5 lh-base fw-normal pt-4'><FaLocationDot />&nbsp;&nbsp;Branch Address</h5>
+
+                                    <h5 className='fs-5 lh-base fw-normal'>
+                                        Plot no.11,2nd floor gayatri mandir road <br />
+                                        shree nagar, IT park road, Parsodi <br />
+                                        nagpur-maharashtra 440-002
+
+                                    </h5>
+                                    {/* <a href="" className='me-3 fs-5 text-white'><FaLinkedin /></a>
+                                        <a href="" className='me-3 fs-5 text-white'><FaInstagramSquare /></a>
+                                        <a href="" className='me-3 fs-5 text-white'><FaTwitterSquare /></a>
+                                        <a href="" className='me-3 fs-5 text-white'><FaYoutube /></a>
+                                        <a href="" className='me-3 fs-5 text-white'><FaFacebook /></a> */}
+
+
+
+                                    {/* </li> */}
+
+                                    {/* <a href={`tel:${phoneNumber}`} className='h4 text-white'>
+                                        <IoCall /> {phoneNumber}
+                                    </a> */}
+                                    {/* <li>
+
+                                    </li> */}
+                                    {/* 
                                     <li className='d-flex footerImg py-3'>
 
                                         <img src="" className='me-2 ' alt="" />
@@ -178,20 +143,20 @@ function Footer() {
 
 
 
-                                    </li>
+                                    </li> */}
 
 
 
-                                </ul>
+                                </div>
 
                             </div>
                         </div>
-                        <hr />
-                        
+                        {/* <hr />
+
                         <p className='py-3'>
-                        <h6 className='text-capitalize'>plot no, 11, office no. 202, 2nd floor, gayatri mandir road , shree nagar, it park road, persodi, nagpur-440022</h6>
+                            <h6 className='text-capitalize'>plot no, 11, office no. 202, 2nd floor, gayatri mandir road , shree nagar, it park road, persodi, nagpur-440022</h6>
                             By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.
-                        </p>
+                        </p> */}
 
                     </div>
 

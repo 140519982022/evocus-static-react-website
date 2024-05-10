@@ -4,5 +4,10 @@
     
 }
 a{
-    color: gray;
+    color: white;
+}
+
+.footer-bg{
+    background: url(../images/footer-img.jpg);
+    width: 100%;
 }
