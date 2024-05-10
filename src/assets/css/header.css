@@ -1,5 +1,7 @@
 .header-bg{
-    background: url(../images/header-bg.jpg);
-    /* height: 100%; */
-    background-position: center;
+    background: url(../images/header-bg.jpg) no-repeat;
+    height: 100%;
+    /* background-position: co; */
+    background-size: cover;
+    width: 100%;
 }

@@ -8,6 +8,7 @@ import OurServices from './components/OurServices';
 import ContentCarouselSection from './components/ContentCarouselSection';
 import ImgContentSection1 from './components/ImgContentSection1';
 import ImgContentSection2 from './components/ImgContentSection2';
+import AboutUsSection from './components/AboutUsSection';
 
 
 
@@ -46,6 +47,8 @@ function App() {
 
 
       </div>
+
+      <AboutUsSection></AboutUsSection>
       <ContentCarouselSection></ContentCarouselSection>
       <ImgContentSection1></ImgContentSection1>
 
