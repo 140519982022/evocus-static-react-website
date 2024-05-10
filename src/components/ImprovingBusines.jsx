@@ -26,7 +26,7 @@ export default function ImprovingBusines() {
 
                         <div className='py-4' align="center">
                             
-                            <img src={img1} alt="tab img" />
+                            <img src={img1} alt="tab img" className='w-75'/>
                             <Button variant="primary" size="lg" className='px-5 my-5'>LEARN MORE ABOUT OUR CUSTOMERS</Button>
 
                         </div>
