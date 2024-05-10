@@ -5,6 +5,9 @@ import slider2 from '../assets/images/slider2.avif';
 import slider3 from '../assets/images/slider3.avif';
 import slider4 from '../assets/images/slider4.avif';
 
+import Button from 'react-bootstrap/Button';
+
+
 // import hmm2 from '../assets/images/slider3.avif';
 
 export default function ContentCarouselSection() {
@@ -22,7 +25,7 @@ export default function ContentCarouselSection() {
     return (
 
         <>
-            <div className='bg-body-secondary py-5 my-5'>
+            <div className='bg-body-secondary py-5 my-5 position-relative'>
 
                 <div className='container'>
                     <div className='row'>
@@ -62,6 +65,9 @@ export default function ContentCarouselSection() {
 
 
                 </div>
+                <div className='position-absolute top-100 start-50 translate-middle'>
+                            <Button variant="primary" size="lg" className=''>LEARN MORE ABOUT US</Button>
+                        </div>                        
 
             </div>
 

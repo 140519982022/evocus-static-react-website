@@ -18,7 +18,6 @@ export default function AboutUsSection() {
            <div className='text-white fs-5 py-3'>
            Digital Enterprise – Next Level Flexibility
 
-
            </div>
 
            <div className='text-white fs-5 py-3 lh-lg'>

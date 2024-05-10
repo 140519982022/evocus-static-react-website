@@ -9,6 +9,7 @@ import ContentCarouselSection from './components/ContentCarouselSection';
 import ImgContentSection1 from './components/ImgContentSection1';
 import ImgContentSection2 from './components/ImgContentSection2';
 import AboutUsSection from './components/AboutUsSection';
+import ImprovingBusines from './components/ImprovingBusines';
 
 
 
@@ -54,6 +55,7 @@ function App() {
 
       <OurServices></OurServices>
       <ImgContentSection2></ImgContentSection2>
+      <ImprovingBusines></ImprovingBusines>
       <Footer></Footer>
 
 
