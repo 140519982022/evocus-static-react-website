@@ -6,12 +6,12 @@ export default function ImgContentSection1() {
     return (
         <>
 
-            <div className='container-fluid bg-body-secondary my-5'>
+            <div className='container-fluid bg-body-secondary my-5 '>
 
-                {/* <div className=''> */}
+                <div className='container'>
                 <div className='row'>
 
-                    <div className='col-md-6 '>
+                    <div className='col-md-6 mx-auto'>
 
 
                         <img src={contentImg} alt="" className='w-75' />
@@ -40,7 +40,7 @@ export default function ImgContentSection1() {
 
 
 
-                {/* </div> */}
+                </div>
 
             </div>
         </>

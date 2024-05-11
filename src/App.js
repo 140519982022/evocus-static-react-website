@@ -11,6 +11,7 @@ import ImgContentSection2 from './components/ImgContentSection2';
 import AboutUsSection from './components/AboutUsSection';
 import ImprovingBusines from './components/ImprovingBusines';
 import OurTeam from './components/OurTeam';
+import ContentButtonSection from './components/ContentButtonSection';
 
 
 
@@ -53,11 +54,11 @@ function App() {
       <AboutUsSection></AboutUsSection>
       <ContentCarouselSection></ContentCarouselSection>
       <ImgContentSection1></ImgContentSection1>
-
       <OurServices></OurServices>
       <ImgContentSection2></ImgContentSection2>
       <ImprovingBusines></ImprovingBusines>
       <OurTeam></OurTeam>
+      <ContentButtonSection></ContentButtonSection>
       <Footer></Footer>
 
 
