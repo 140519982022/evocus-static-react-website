@@ -66,7 +66,7 @@ export default function ContentCarouselSection() {
 
                 </div>
                 <div className='position-absolute top-100 start-50 translate-middle'>
-                            <Button variant="primary" size="lg" className=''>LEARN MORE ABOUT US</Button>
+                            <Button variant="primary" size="" className=''>LEARN MORE ABOUT US</Button>
                         </div>                        
 
             </div>

@@ -28,7 +28,7 @@ export default function ImgContentSection2() {
                         </div>
 
                         <div className=' pe-5'>
-                            <Button variant="primary" size="lg" className='px-5 my-3'>LEARN MORE ABOUT CLOUD SYSTEMS</Button>
+                            <Button variant="primary" size="lg" className='my-3'>LEARN MORE ABOUT CLOUD SYSTEMS</Button>
                         </div>
                     </div>
 

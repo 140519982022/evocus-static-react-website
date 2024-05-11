@@ -31,7 +31,7 @@ export default function ImgContentSection1() {
                         </div>
 
                         <div className='d-flex flex-row-reverse pe-5'>
-                            <Button variant="primary" size="lg" className='px-5 my-3'>LEARN MORE ABOUT US</Button>
+                            <Button variant="primary" size="lg" className='my-3'>LEARN MORE ABOUT US</Button>
                         </div>                        
                     </div>
                 </div>
