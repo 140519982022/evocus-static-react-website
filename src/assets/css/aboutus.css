@@ -6,7 +6,6 @@
 .content-height{
     height: auto !important;
     margin-top: 5%;
-    /* position: absolute; */
     position: relative;
     left: 12%;
     margin-bottom: 10%;
@@ -15,9 +14,6 @@
 .abt-img{
 
     height: 600px !important;
-    /* position: absolute; */
-    /* position: relative; */
-
     left: 50%;
 
 }
