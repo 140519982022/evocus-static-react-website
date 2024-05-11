@@ -25,9 +25,9 @@ export default function ContentCarouselSection() {
     return (
 
         <>
-            <div className='bg-body-secondary py-5 my-5 position-relative'>
+            <div className=' container-fluid bg-body-secondary py-5 my-5 position-relative'>
 
-                <div className='container'>
+                <div className='container d-flex flex-column justify-content-between'>
                     <div className='row'>
 
                         <div className='col-md-11 m-auto'>

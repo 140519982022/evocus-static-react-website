@@ -10,4 +10,5 @@ a{
 .footer-bg{
     background: url(../images/footer-img.jpg);
     width: 100%;
+    background-size: cover;
 }
