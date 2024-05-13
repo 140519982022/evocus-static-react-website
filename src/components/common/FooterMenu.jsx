@@ -49,7 +49,7 @@ function Footer() {
                             <div className='col-md-4'>
 
                                 <div className='lh-lg'>
-                                    <img src={footerLogo} alt="footer logo" className='w-75 pb-4' />
+                                    {/* <img src={footerLogo} alt="footer logo" className='w-75 pb-4' /> */}
 
                                     
 
