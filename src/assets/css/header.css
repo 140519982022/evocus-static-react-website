@@ -1,7 +1,11 @@
 .header-bg{
-    background: url(../images/header-bg.jpg) no-repeat;
+    /* background: url(../images/header-bg.jpg) no-repeat; */
+    background: url(../images/bg-1.webp) no-repeat;
+
     height: 100%;
     /* background-position: co; */
     background-size: cover;
+    background-position:initial;
+    
     width: 100%;
 }

@@ -11,7 +11,7 @@ function NavbarMenu() {
     const emailAddress = 'evocusittechnology@gmail.com'; // Your email address here
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary shadow p-4 bg-body-tertiary rounded ">
+            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary shadow p-4 bg-body-tertiary rounded">
                 <Container>
                     <Navbar.Brand href="#home" className='text-center text-warning fw-bold display-1'>EVOCUS <br></br> IT TECHNOLOGY</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

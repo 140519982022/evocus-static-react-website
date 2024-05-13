@@ -27,16 +27,16 @@ function App() {
           <div className='text-center py-5'>
 
             <div className='pt-5'>
-              <i className='py-5 fw-bolder h1'>Web Solutions Beyond Boundaries</i>
+              {/* <i className='py-5 fw-bolder h1'>Web Solutions Beyond Boundaries</i> */}
 
             </div>
             <div className='pb-5'>
               <div className='container'>
                 <div className='row'>
                   <div className='col-md-7 m-auto text-end py-5'>
-                    <i className='py-5 fs-4 w-25 '>
+                    {/* <i className='py-5 fs-4 w-25 '>
                       Crafting Digital Excellence. Elevate Your Brand with Expert Web Development. Transforming Ideas into Impactful Online Experiences.
-                    </i>
+                    </i> */}
                   </div>
 
                 </div>
